@@ -8,7 +8,7 @@
 //       .then(response => response.json())
 //       .then(json => console.log(json))
 
-fetch('http://localhost:5000/students')
+fetch('https://practice-apistudents-1.onrender.com/students')
       .then(response => response.json())
       .then(json=>{
           json.forEach(student => {
